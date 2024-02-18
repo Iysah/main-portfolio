@@ -136,7 +136,7 @@ export default function Navbar() {
         </Popover.Group>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://wa.link/y62j85" className="text-sm font-semibold leading-6 text-white bg-button-bg-blue px-6 py-3 rounded">
+          <a href="https://wa.link/fn63qi" className="text-sm font-semibold leading-6 text-white bg-button-bg-blue px-6 py-3 rounded">
             Contact us <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -201,7 +201,7 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="py-6">
-                <a href="https://wa.link/y62j85" className="text-sm font-semibold leading-6 text-white bg-button-bg-blue px-6 py-3 rounded">
+                <a href="https://wa.link/fn63qi" className="text-sm font-semibold leading-6 text-white bg-button-bg-blue px-6 py-3 rounded">
                     Contact us <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>

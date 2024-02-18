@@ -21,7 +21,7 @@ function Footer() {
                     <a href='https://www.linkedin.com/company/zorfts-technologies/'>
                         <FaLinkedin />
                     </a>
-                    <a href='https://wa.link/y62j85'>
+                    <a href='https://wa.link/fn63qi5'>
                         <FaWhatsappSquare />
                     </a>
                 </span>
