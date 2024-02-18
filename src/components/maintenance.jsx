@@ -3,22 +3,31 @@ import zorftsLogo from "../assets/zorftsIcon.png";
 import bgBig from "../assets/bgBig.png";
 
 function Maintenance() {
+	    // send a POST request using Fetch API 
+		// fetch('https://sitebackend-api.vercel.app/contact/send', {
+		// 	method: 'POST',
+		// 	headers: {
+		// 		'Content-Type': 'application/json',
+		// 	},
+		// 	body: JSON.stringify(jsonData),
+		// })
+
 	return (
 		<>
 			<div className="font-sans mt-8">
 				<h1 className="text-6xl font-bold text-h1-black text-center mb-4">
-					Oops! Maintanence mode.
+					Oops! Under Construction.
 				</h1>
 				<p className="text-base text-center text-text-ash leading-5">
 					We are currently under maintenance, our teams are working hard to{" "}
-					<br /> get the site running again.
+					<br /> create a new experience for you.
 				</p>
-				<div className="flex justify-center w-[100%] ml-auto gap-6">
-					<div className="ml-auto">
+				<div className="flex justify-center items-center sm:flex-col-reverse w-[100%] mx-auto gap-6">
+					<div>
 						<Image src={bgBig} />
 					</div>
 
-					<div className="mr-auto">
+					<div>
 						<form
 							action=""
 							className="w-full flex flex-col justify-self-center mt-8 ">
@@ -32,7 +41,14 @@ function Maintenance() {
 							<div>
 								<input
 									type="text"
-									placeholder="Company's name"
+									placeholder="Subject"
+									className="border border-border-ash rounded-xl px-4 py-2 w-[100%] mt-4"
+								/>
+							</div>
+							<div>
+								<input
+									type="tel"
+									placeholder="Phone number"
 									className="border border-border-ash rounded-xl px-4 py-2 w-[100%] mt-4"
 								/>
 							</div>
