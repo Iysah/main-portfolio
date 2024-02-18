@@ -14,20 +14,20 @@ function Maintenance() {
 
 	return (
 		<>
-			<div className="font-sans mt-8">
-				<h1 className="text-6xl font-bold text-h1-black text-center mb-4">
+			<div className="font-sans mt-8 p-2">
+				<h1 className="text-3xl sm:text-6xl font-bold text-h1-black text-center mb-4">
 					Oops! Under Construction.
 				</h1>
 				<p className="text-base text-center text-text-ash leading-5">
 					We are currently under maintenance, our teams are working hard to{" "}
 					<br /> create a new experience for you.
 				</p>
-				<div className="flex justify-center items-center sm:flex-col-reverse w-[100%] mx-auto gap-6">
-					<div>
+				<div className="flex justify-center items-center flex-col-reverse sm:flex-row w-[100%] mx-auto gap-6">
+					<div className="hidden sm:block">
 						<Image src={bgBig} />
 					</div>
 
-					<div>
+					<div className=" p-2">
 						<form
 							action=""
 							className="w-full flex flex-col justify-self-center mt-8 ">
@@ -69,7 +69,7 @@ function Maintenance() {
 									rows="10"></textarea>
 							</div>
 							<div className="ml-auto mr-auto mt-10 ">
-								<button className="text-white bg-button-bg-blue  pl-64 pr-72 pt-5 pb-5 mt-4 rounded-2xl ">
+								<button className="text-white bg-button-bg-blue px-4 py-2 w-[400px] mt-4 rounded-2xl ">
 									Send
 								</button>
 							</div>

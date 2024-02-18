@@ -8,9 +8,10 @@ function Footer() {
   return (
     <>
         <div className='mx-auto bg-[#1a1f24] w-[100%] mt-10 p-6'>
-            <div className='mx-10 flex justify-between items-center flex-row'>
+            <div className='mx-10 flex justify-between items-center flex-col sm:flex-row text-center'>
                 <p className='text-white'>Copyright © 2024 Zorfts Technologies Ltd. All rights reserved.</p>
-                <span className='text-white text-xl flex justify-end items-center flex-row gap-4'>
+
+                <span className='text-white text-xl flex justify-end items-center flex-row gap-4 mt-6 sm:mt-0'>
                     <a href='https://twitter.com/zorftstech'>
                         <FaXTwitter />
                     </a>
