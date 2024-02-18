@@ -34,27 +34,13 @@ function Maintenance() {
 							<div>
 								<input
 									type="text"
-									placeholder="Full name"
-									className="border border-border-ash rounded-xl px-4 py-2 w-[100%]"
-								/>
-							</div>
-							<div>
-								<input
-									type="text"
 									placeholder="Subject"
 									className="border border-border-ash rounded-xl px-4 py-2 w-[100%] mt-4"
 								/>
 							</div>
 							<div>
 								<input
-									type="tel"
-									placeholder="Phone number"
-									className="border border-border-ash rounded-xl px-4 py-2 w-[100%] mt-4"
-								/>
-							</div>
-							<div>
-								<input
-									type="text"
+									type="email"
 									placeholder="Email address"
 									className="border border-border-ash rounded-xl px-4 py-2 w-[100%] mt-4"
 								/>
