@@ -1,7 +1,12 @@
-import Image from "next/image";
-import maintenance from "@/components/maintenance";
+
+import Footer from "@/components/footer";
 import Maintenance from "@/components/maintenance";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
-	return <Maintenance />;
+	return <>
+	<Navbar />
+	<Maintenance /> 
+	<Footer />
+	</>;
 }
