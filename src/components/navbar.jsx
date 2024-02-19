@@ -1,7 +1,7 @@
 "use client"
 import React, { Fragment, useState } from 'react'
 import Image from "next/image";
-import zorftsLogo from "../assets/zorftsIcon.png";
+import zorftsLogo from "../assets/logo-icon.png";
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -62,9 +62,10 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Zorfts Technologies Ltd</span>
-            <Image src={zorftsLogo} className="h-15 w-[200px]" alt="Zorfts Technologies Ltd" />
+            <Image src={zorftsLogo} className="h-15 w-[150px]" alt="Zorfts Technologies Ltd" />
           </a>
         </div>
+        
         <div className="flex lg:hidden">
           <button
             type="button"
