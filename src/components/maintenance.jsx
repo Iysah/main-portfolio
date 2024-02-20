@@ -19,8 +19,7 @@ function Maintenance() {
 					Oops! Under Construction.
 				</h1>
 				<p className="text-base text-center text-text-ash leading-5">
-					We are currently under maintenance, our teams are working hard to{" "}
-					<br /> create a new experience for you.
+					We are currently under maintenance, our teams are working hard to{" "} create a new experience for you.
 				</p>
 				<div className="flex justify-center items-center flex-col-reverse sm:flex-row w-[100%] mx-auto gap-6">
 					<div className="hidden sm:block">
@@ -28,9 +27,10 @@ function Maintenance() {
 					</div>
 
 					<div className=" p-2">
+						<h3 className="mt-8 font-semibold">Need our service? Kindly leave us a message, our team will respond swiftly.</h3>
 						<form
 							action=""
-							className="w-full flex flex-col justify-self-center mt-8 ">
+							className="w-full flex flex-col justify-self-center mt-1 ">
 							<div>
 								<input
 									type="text"
