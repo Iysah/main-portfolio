@@ -16,10 +16,10 @@ function Maintenance() {
 		<>
 			<div className="font-sans mt-8 p-2">
 				<h1 className="text-3xl sm:text-6xl font-bold text-h1-black text-center mb-4">
-					Oops! Under Construction.
+					Sorry! Currently under maintenance.
 				</h1>
 				<p className="text-base text-center text-text-ash leading-5">
-					We are currently under maintenance, our teams are working hard to{" "} create a new experience for you.
+					We are currently revamping our site, our team are working hard to{" "} create a new experience for you.
 				</p>
 				<div className="flex justify-center items-center flex-col-reverse sm:flex-row w-[100%] mx-auto gap-6">
 					<div className="hidden sm:block">
